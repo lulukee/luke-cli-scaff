@@ -1,0 +1,22 @@
+{
+  "name": "@luke-cli-scaff/utils",
+  "version": "1.0.0",
+  "description": "luke-cli-scaff utils",
+  "author": "lulukee <luluke12@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Run tests from utils\""
+  },
+  "dependencies": {
+   
+  }
+}
