@@ -18,5 +18,6 @@
   },
   "dependencies": {
     "@luke-cli-scaff/utils": "^1.0.1"
-  }
+  },
+  "gitHead": "5d841fea082f4940de9db6e9f2d5faf2f8856523"
 }

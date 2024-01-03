@@ -1,15 +1,16 @@
-0 silly argv { _: [ 'link' ],
-0 silly argv   lernaVersion: '3.22.1',
-0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js' }
-1 notice cli v3.22.1
-2 verbose rootPath G:\workspace\scaffolding\luke-cli-scaff
-3 error Error: Invalid package name "@luke-cli-scaff": name can only contain URL-friendly characters
-3 error     at invalidPackageName (G:\workspace\scaffolding\luke-cli-scaff\node_modules\npm-package-arg\npa.js:86:15)
-3 error     at Result.setName (G:\workspace\scaffolding\luke-cli-scaff\node_modules\npm-package-arg\npa.js:121:11)
-3 error     at new Result (G:\workspace\scaffolding\luke-cli-scaff\node_modules\npm-package-arg\npa.js:111:23)
-3 error     at Function.resolve (G:\workspace\scaffolding\luke-cli-scaff\node_modules\npm-package-arg\npa.js:58:15)
-3 error     at Object.keys.forEach.depName (G:\workspace\scaffolding\luke-cli-scaff\node_modules\@lerna\package-graph\index.js:61:30)
-3 error     at Array.forEach (<anonymous>)
-3 error     at PackageGraph.forEach (G:\workspace\scaffolding\luke-cli-scaff\node_modules\@lerna\package-graph\index.js:55:38)
-3 error     at Map.forEach (<anonymous>)
-3 error     at new PackageGraph (G:\workspace\scaffolding\luke-cli-scaff\node_modules\@lerna\package-graph\index.js:44:10)
+15 error Error: Command failed: git remote update
+15 error ssh_dispatch_run_fatal: Connection to 20.205.243.166 port 22: Software caused connection abort
+15 error fatal: Could not read from remote repository.
+15 error
+15 error Please make sure you have the correct access rights
+15 error and the repository exists.
+15 error error: could not fetch origin
+15 error
+15 error Fetching origin
+15 error
+15 error     at makeError (G:\workspace\scaffolding\luke-cli-scaff\node_modules\execa\index.js:174:9)
+15 error     at Function.module.exports.sync (G:\workspace\scaffolding\luke-cli-scaff\node_modules\execa\index.js:338:15)
+15 error     at Object.execSync (G:\workspace\scaffolding\luke-cli-scaff\node_modules\@lerna\child-process\index.js:26:16)
+15 error     at updateRemote (G:\workspace\scaffolding\luke-cli-scaff\node_modules\@lerna\version\lib\is-behind-upstream.js:26:16)
+15 error     at isBehindUpstream (G:\workspace\scaffolding\luke-cli-scaff\node_modules\@lerna\version\lib\is-behind-upstream.js:11:3)
+15 error     at VersionCommand.initialize (G:\workspace\scaffolding\luke-cli-scaff\node_modules\@lerna\version\index.js:154:9)
