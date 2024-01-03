@@ -1,6 +1,6 @@
 {
   "name": "@luke-cli-scaff/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "luke-cli-scaff core",
   "author": "lulukee <luluke12@163.com>",
   "homepage": "",
@@ -10,13 +10,13 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": [ 
+  "files": [
     "lib"
   ],
   "scripts": {
     "test": "echo \"Run tests from core\""
   },
   "dependencies": {
-    "@luke-cli-scaff/utils":"^1.0.0"
+    "@luke-cli-scaff/utils": "^1.0.1"
   }
 }
